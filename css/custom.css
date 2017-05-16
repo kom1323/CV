@@ -6,6 +6,94 @@ body{
     width: 900px;
     margin:0 auto;
     margin-top: 20px;
-    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75)
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
     
 }
+
+#profile{
+    
+    background: #1e1e1e;
+    color:aqua;
+    padding: 25px;
+}
+
+#intro{
+    
+    display: flex;
+    border-bottom: 1px solid #a5a5a5;
+    align-items: center
+    
+}
+
+#intro img{
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right:20px;
+
+}
+
+#intro header {
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+#intro header h1{
+    font-weight: 300;
+    color:#fff;
+    font-size: 25px;
+    margin:0;
+}
+
+#intro header h2{
+    font-weight: 600;
+    color:#d07628;
+    font-size: 40px;
+    margin:0;
+}
+
+#intro header h3{
+    font-weight: 400;
+    color:#fff;
+    margin:0;
+}
+
+#about{
+    border-left: 2px solid #a5a5a5;
+    padding:15px;
+    width:350px;
+    margin-bottom: 10px;
+
+}
+
+#contact-info{
+    display:flex;
+
+}
+
+#contact-info ul {
+    list-style: none;
+}
+
+#contact-info ul:first-child{
+    font-weight: 600;
+}
+
+#social-networks {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#social-networks a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
