@@ -94,6 +94,63 @@ body{
 
 
 
+#cv2{
+    width: 900px;
+    margin:0 auto;
+    display: flex;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+} 
+
+
+#white{
+    width:600px;
+    display:flex;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    background: white;
+}
+
+#experience{
+    width:200px;
+   
+}
+
+#extension{
+    width:400px;
+    margin-left: 50px;
+    
+
+}
+
+#skills {
+    width:300px;
+    
+    
+}
+
+#pro{
+    background: cyan;
+   padding:20px;
+    
+    
+}
+#per{
+    background: red;
+    padding: 20px;
+    
+    
+}
+
+#experience h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:0;
+    color: darkgrey;
+    marg
+    
+}
+
+
+
 
 
 
