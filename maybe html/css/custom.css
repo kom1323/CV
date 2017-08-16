@@ -140,30 +140,53 @@ body{
 #pro{
     background: cyan;
    padding:20px;
+	overflow:hidden;
+
     
     
 }
 
 #line{
     float:left;
-    
+        background: cyan;
     font-size: 15px;
+	width:100px;
+ 
+}
+#line2{
+    float:left;
+        background: red;
+    font-size: 15px;
+	width:100px;
  
 }
 
 
 #bar{
-    margin-left: 100px;
+    width:210px;
+    margin-left:90px;
+    background: cyan;
+    height:80px;
+
+}
+
+#bar2{
+    width:210px;
+    margin-left:90px;
+    background: red;
+    height:80px;
+
 
 
 }
 
 
 
-#per{
+#pre{
     background: red;
-    padding: 20px;
-    
+    padding: 10px;
+    overflow:hidden;
+    text-align: left;
     
 }
 
@@ -240,7 +263,6 @@ body{
     background-color:#757575;
     height:100%;
     position:absolute;
-    line-height:inherit
 }
 
 
